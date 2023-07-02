@@ -1,0 +1,10 @@
+package com.becoder.service;
+
+import com.becoder.model.Product;
+
+public interface ProductService {
+	
+	public Product saveProduct(Product product);
+	
+	
+}

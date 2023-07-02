@@ -1,0 +1,13 @@
+package com.example.simple.CrudRepository;
+
+import java.util.List;
+
+import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;
+import org.springframework.data.repository.support.JpaRepository;
+
+import com.example.simple.pojo.UserPojo;
+
+public interface UserRepository extends JpaRepository<UserPojo, Integer>{
+
+	List<UserPojo>list();
+}

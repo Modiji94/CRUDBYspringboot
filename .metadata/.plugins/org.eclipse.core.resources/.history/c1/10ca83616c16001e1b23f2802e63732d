@@ -1,0 +1,17 @@
+package com.example.simple.controller;
+
+import org.apache.catalina.connector.Response;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SimpleController {
+
+	
+	@PostMapping
+	public ResponseEntity<>(){
+	return 	
+	}
+	
+}

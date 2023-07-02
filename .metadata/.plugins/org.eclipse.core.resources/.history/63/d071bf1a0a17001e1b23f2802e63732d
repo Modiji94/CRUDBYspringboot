@@ -1,0 +1,6 @@
+package com.becoder.service;
+
+
+public class ServiceImpl implements ProductService{
+
+}

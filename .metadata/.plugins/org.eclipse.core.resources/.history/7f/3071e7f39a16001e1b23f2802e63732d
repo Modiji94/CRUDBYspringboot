@@ -1,0 +1,14 @@
+package com.example.simple.CrudRepository;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.simple.pojo.UserPojo;
+
+public interface UserRepository extends CrudRepository<UserPojo, Integer>{
+
+	org.apache.catalina.User save(org.apache.catalina.User user2);
+
+	
+}

@@ -1,0 +1,15 @@
+package com.example.simple.services;
+
+import java.util.List;
+
+import org.apache.catalina.User;
+
+public interface UserServiceInterf {
+
+	User add(User user2);
+	User getuser(int id);
+    List<User> getalluser();
+//    UserPojo delete(int id); 
+//    UserPojo updateuser(int id);
+//	
+}

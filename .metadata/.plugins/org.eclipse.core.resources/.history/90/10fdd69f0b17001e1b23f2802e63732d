@@ -1,0 +1,38 @@
+package com.becoder.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.becoder.model.Product;
+import com.becoder.repository.ProductRepository;
+
+public class ServiceImpl implements ProductService{
+
+	@Autowired
+	private ProductRepository productrepo;
+	
+	@Override
+	public Product saveProduct(Product product) {
+		
+		return productrepo.save(product);
+	}
+
+	@Override
+	public List<Product> getallProduct() {
+		return productrepo.findAll();
+	}
+
+	@Override
+	public Product getProductbyId(int id) {
+		return productrepo.(null);
+	}
+
+	@Override
+	public void deleteProduct(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}
